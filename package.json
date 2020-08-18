@@ -1,0 +1,25 @@
+{
+  "name": "baseapp",
+  "description": "This web project has the following setup:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=www",
+    "build": "grunt",
+    "build:pretty": "grunt beautify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "^1.2.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-nodeunit": "^2.1.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "lite-server": "^2.5.4",
+    "matchdep": "^2.0.0"
+  },
+  "dependencies": {
+    "react-tools": "^0.13.3"
+  }
+}
