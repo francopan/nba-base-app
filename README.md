@@ -4,6 +4,8 @@
 
 This app fetches an api of NBA Stats and provides a friendly user-interface for the fans.
 
+Demo: (https://francopan-nba-stats.herokuapp.com/)[https://francopan-nba-stats.herokuapp.com/]
+
 ## Development Server
 
 To run a development web-server, just run the command line below. The application will start and it will be accessible through http://localhost:3000.
