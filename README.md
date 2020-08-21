@@ -3,6 +3,7 @@
 ![](https://travis-ci.org/francopan/nba-base-app.svg?branch=master)
 
 This app fetches an api of NBA Stats and provides a friendly user-interface for the fans.
+
 Demo: [https://francopan-nba-stats.herokuapp.com/](https://francopan-nba-stats.herokuapp.com/)
 
 ## Development Server
