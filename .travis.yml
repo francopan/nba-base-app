@@ -4,7 +4,7 @@ before_script:
   - curl https://cli-assets.heroku.com/install.sh | sh
 
 script:
-  - /usr/local/bin/heroku heroku container:login
+  - /usr/local/bin/heroku container:login
   - /usr/local/bin/heroku container:push web --app francopan-nba-stats
   - /usr/local/bin/heroku container:release web --app francopan-nba-stats
 
