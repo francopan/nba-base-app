@@ -1,0 +1,9 @@
+sudo: required
+
+before_script:
+  - curl https://cli-assets.heroku.com/install.sh | sh
+
+script:
+  - /usr/local/heroku/bin/heroku container:push web --app francopan-nba-stats
+  - /usr/local/heroku/bin/heroku container:release web --app francopan-nba-stats
+
