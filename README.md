@@ -4,7 +4,7 @@
 
 This app fetches an api of NBA Stats and provides a friendly user-interface for the fans.
 
-Demo: (https://francopan-nba-stats.herokuapp.com/)[https://francopan-nba-stats.herokuapp.com/]
+Demo: [https://francopan-nba-stats.herokuapp.com/](https://francopan-nba-stats.herokuapp.com/)
 
 ## Development Server
 
