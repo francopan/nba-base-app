@@ -1,3 +1,6 @@
+
+let production = true;
+
 requirejs.config({
     baseUrl: "./",
     paths: {
@@ -8,8 +11,8 @@ requirejs.config({
         "popper": "app/js/lib/popper.min",
         "tpl": "app/js/lib/tpl",
         "backbone-pageable": "app/js/lib/backbone-pageable.min",
-        "react": "app/js/lib/react.development",
-        "react-dom": "app/js/lib/react-dom.development",
+        "react": production ? "app/js/lib/react.production.min" : "app/js/lib/react.development",
+        "react-dom": production ? "app/js/lib/react-dom.production.min" : "app/js/lib/react-dom.development"
     },
     shim: {
         "jquery": {
