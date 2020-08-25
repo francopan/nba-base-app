@@ -1,4 +1,4 @@
-# NBA Stats
+# NBA Stats Base App
 
 ![](https://travis-ci.org/francopan/nba-base-app.svg?branch=master)
 
