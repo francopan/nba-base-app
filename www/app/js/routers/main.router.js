@@ -20,7 +20,7 @@ define(["backbone", "../controllers/match.controller"], (
       matchController.getPageNumber(parseInt(page))
     },
     getMatch: function (id) {
-      // TODO
+      matchController.getMatch(id);
     }
   });
 });

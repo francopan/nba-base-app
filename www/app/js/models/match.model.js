@@ -1,5 +1,6 @@
 define(["backbone"], function (Backbone) {
   return Backbone.Model.extend({
+    urlRoot: "https://free-nba.p.rapidapi.com/games",
     defaults: function () {
       return {
         id: 0,
