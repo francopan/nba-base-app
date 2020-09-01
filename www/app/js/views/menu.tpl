@@ -6,4 +6,11 @@
             </a>
         </li>
     <% }) %>
+    <% if (localStorage.getItem('myTeam') !== null) { %>
+    <li class="nav-item">
+            <a class="nav-link " href="/#matches/team/<%=localStorage.getItem('myTeam')%>">
+                Favourite Team Matches
+            </a>
+        </li>
+    <% } %>
 </ul>
