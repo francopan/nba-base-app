@@ -2,6 +2,7 @@
 
 body {
   padding-top: 5rem;
+  overflow: hidden;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -23,7 +24,13 @@ body {
   }
 }
 
-/* FADE IN  */
+#router-applet {
+  height: calc(100vh - 80px);
+  width: 100%;
+  overflow: auto;
+}
+
+/* ---------------------- ANIMATIONS ---------------------- */
 
 .fade-in {
 	opacity: 1;
@@ -40,8 +47,8 @@ body {
 		opacity: 1;
 	}
 }
-/* FADE OUT  */
 
+/* ---------------------- END ANIMATIONS ---------------------- */
 
 .scoreboard {
   font-family: dotMatri;

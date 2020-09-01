@@ -1,4 +1,4 @@
-define(["backbone", "tpl!./match.tpl"], (Backbone, tpl) => {
+define(["backbone", "tpl!./team.tpl"], (Backbone, tpl) => {
   return Backbone.View.extend({
     el: "#router-applet", // Parent element in which the content will be rendered.
     initialize() { // Paints first data onto screen and listen to model changes

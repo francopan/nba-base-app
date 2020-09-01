@@ -1,6 +1,10 @@
 define(["backbone"], function (Backbone) {
     return Backbone.Model.extend({
       urlRoot: "https://free-nba.p.rapidapi.com/stats",
+      /**
+     * @author franco.pan
+     * @returns Match Stats model with default values for each attribute
+     */
       defaults: function () {
         return {
             id:0,

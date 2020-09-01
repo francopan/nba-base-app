@@ -35,7 +35,6 @@ define(["../collections/match.collection","../collections/stats.collection", "..
                         data: $.param({"game_ids[]": `${_id}`}),
                         headers: this.apiHeaders,
                         success: (model2) => {
-                            console.log(model2)
                             new MatchStatsView({ model: model2 });
                         },
                         error: (e) => this.callbackPageError(e)
@@ -45,7 +44,8 @@ define(["../collections/match.collection","../collections/stats.collection", "..
             });
         };
 
-        matchController.prototype.getPage = () => {  
+        matchController.prototype.getPage = (id) => {  
+            this.matches.state["team_ids\[\]"] = id;
             return this.matches.fetch({
                 headers: this.apiHeaders,
                 success: (a) => this.callbackPageSuccess(a),
